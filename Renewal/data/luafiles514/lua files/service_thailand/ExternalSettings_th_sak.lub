@@ -18,22 +18,22 @@ MaxLevelTable = {
 }
 MakeableRace = { Doram = true }
 
-AssistAddr = "127.0.0.1:3000"
+AssistAddr = "127.0.0.1:8888"
 
-Url = { TwitterUrl = "http://127.0.0.1:3000" }
+Url = { TwitterUrl = "http://127.0.0.1:8888" }
 AccountLinkedUserDataUrl = {
-	Save = "http://127.0.0.1:3000/userconfig/save",
-	Load = "http://127.0.0.1:3000/userconfig/load"
+	Save = "http://127.0.0.1:8888/userconfig/save",
+	Load = "http://127.0.0.1:8888/userconfig/load"
 }
 
 TwitterDataUrl = {
-	Auth = "http://127.0.0.1:3000/twitter/user-auth",
-	Upload = "http://127.0.0.1:3000/twitter/upload"
+	Auth = "http://127.0.0.1:8888/twitter/user-auth",
+	Upload = "http://127.0.0.1:8888/twitter/upload"
 }
 
 EmblemDataUrl = {
-	Upload = "http://127.0.0.1:3000/emblem/upload",
-	Download = "http://127.0.0.1:3000/emblem/download"
+	Upload = "http://127.0.0.1:8888/emblem/upload",
+	Download = "http://127.0.0.1:8888/emblem/download"
 }
 LEVELAURA = {}
 LEVELAURA["EF_NONE"] = -1
